@@ -112,6 +112,37 @@ body{
     height: 100%;
     border-radius: 10px;
 }
+.email__subscribe__input__field{
+    display: flex;
+    column-gap: 10px;
+    align-items: baseline;
+}
+.email__text__input__field{
+    background-color: #fcedf0;
+    border: 1px solid #ee89a0;
+    padding: 8px;
+    width: 100%;
+    color: black;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.email__container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.email__text__container{
+    margin-bottom: 8px;
+}
+.email__text__input__field:focus{
+    border: 1px solid #d8ce72;
+    box-shadow: 0 0 3px #d8ce72;
+    outline-offset: 0px;
+    outline: none;
+}
+#email__button__id{
+    padding: 12px 12px;
+    font-weight: 700;
+}
 @media (min-width: 768px) {
     .navbar{
         justify-content: space-between;
@@ -169,6 +200,18 @@ body{
         width: 100%;
         font-size: 40px;
     }
+    .email__text__input__field{
+        width: 320px;
+    }
+    .email__subscribe__input__field{
+        justify-content: center;
+    }
+    .email__text__container{
+        text-align: center;
+    }
+    .email__text{
+        font-size: 40px;
+    }
 }
 @media (min-width: 1020px){
     .navbar__brand{
@@ -198,6 +241,16 @@ body{
     .restaurant__image__1, .restaurant__image__4{
         width: 100%;
         height: 170px;
+    }
+    .email__text__input__field{
+        width: 420px;
+        padding: 10px;
+    }
+    .email__text__input__field{
+        font-size: 17px;
+    }
+    #email__button__id{
+        padding: 15px 15px;
     }
 }
 @media (min-width: 1400px){
