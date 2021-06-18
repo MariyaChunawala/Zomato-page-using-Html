@@ -37,11 +37,19 @@ body{
 }
 .hero__image__container{
     width: 100%;
+    position: relative;
 }
 .hero__image{
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 2;
+}
+.hero__pattern{
+    position: absolute;
+    width: 100%;
+    right: 2;
 }
 .hero__text{
     font-size: 30px;
